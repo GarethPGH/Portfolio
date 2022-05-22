@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta lang="EN-US"/>
+    <title>Gareth's Creative Corner Galleries</title>
+    <link rel="stylesheet" href = "../css/styles.css" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="../assets/fontawesome/all.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Chicle&display=swap" rel="stylesheet"/>
+</head>
+
+<body>
+    <!--This is a Gallery Page Containing three galleries. One with Digital Artwork, one with Traditional Artwork, and one with Nature Photography
+    Homepage launches with the traditional gallery loaded by default, however selecting the buttons to view the other pages requires 
+    the user to run Javascript in the browser. A noscript warning is provided. Webpage is Responsive, but not optimized for small screens-->
+    <header id="titlebar">
+        <img id="titleimage" src="../assets/colormead.png" width="500" height="400"/>
+        
+        <div>
+            <br>
+            <h1 id="title">Gareth's Creative Corner</h1>
+            <noscript>You Must have Javascript enabled to see Other Galleries</noscript>
+        </div>
+       
+    </header>
+    <nav>
+        <div class="border">
+            <a id ="photos" class = "navigation" href = "#">
+                Photography
+            </a>
+        </div>
+        <div class="border">
+            <a id = "digital" class = "navigation" href = "#">
+                Digital Art
+            </a>
+        </div>
+        <div class="border">
+            <a id = "traditional" class = "currentpage navigation" href= "#">
+                Traditional Art
+            </a>
+        </div>
+    </nav>
+    <div id="galleryborder">
+    <div id="gallery">
+        <div class="images">
+            <figure>
+  
+                <img class = "image" src= "../assets/traditional/bardowl.jpg"  width="300" height="400" alt= "owl">
+           
+                <figcaption class="image-caption">
+                    <a class = "imageHref" href= "../assets/traditional/bardowl.jpg" target="_blank">
+                        <p class="caption-title">Bard Owl</p>
+                    </a>
+                    <p class="caption-text">A bard owl, Barred Owl; Prismacolor Marker</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="images">
+            <figure>
+            
+                <img class = "image" src= "../assets/traditional/fox.jpg"  width="300" height="400" alt=>
+   
+                <figcaption class="image-caption">
+                    <a class = "imageHref" href= "../assets/traditional/fox.jpg"  target="_blank">
+                        <p class="caption-title">Wisteria Fox</p>
+                    </a>
+                    <p class="caption-text">Fox; Acrylic on Wood</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="images">
+            <figure>
+                
+                <img class = "image" src= "../assets/traditional/furrybadges.jpg" width="300" height="400" alt=>
+              
+                <figcaption class="image-caption">
+                    <a class = "imageHref"  href= "../assets/traditional/furrybadges.jpg" target= "_blank">
+                        <p class="caption-title">Badges</p>
+                    </a>
+                    <p class="caption-text">Furry Badges; Black Paper/ Colored Pencils</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="images">
+            <figure>
+                
+                    <img class = "image" src= "../assets/traditional/bat.jpg" width="300" height="400" alt=>
+                
+                <figcaption class="image-caption">
+                    <a class = "imageHref" href= "../assets/traditional/bat.jpg" target="_blank">
+                        <p class="caption-title">Townsend's Bat</p>
+                    </a>
+                    <p class="caption-text">Playful Townsend's Bat; Black Paper/ Colored Pencils</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="images">
+            <figure>
+                
+                <img class = "image" src="../assets/traditional/remembrance.jpg" width="300" height="400" alt=>
+             
+                <figcaption class="image-caption">
+                    <a class = "imageHref" href= "../assets/traditional/remembrance.jpg" target="_blank">
+                        <p class="caption-title">Rememberance</p>
+                    </a>
+                    <p class="caption-text">Portrait Done in the Memory of a Good Friend; Scratchboard</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="images">
+            <figure>
+                
+                <img class = "image" src= "../assets/traditional/waterdeer.jpg" width="300" height="400" alt=>
+  
+                <figcaption class="image-caption">
+                    <a class = "imageHref" href= "../assets/traditional/waterdeer.jpg" target="_blank">
+                        <p class="caption-title">Waterdeer</p>
+                    </a>
+                    <p class="caption-text">Waterdeer; Scratchboard with Watercolor</p>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <span id="fontawesome">
+            <a href="https://www.linkedin.com/in/garethw-developer-pgh">
+                <i class="fa fa-brands fa-linkedin fa-2x"></i>
+            </a>
+            <a href="https://github.com/GarethPGH?tab=repositories">
+                <i class="fa fa-brands fa-github fa-2x"></i>
+            </a> 
+        </span>
+        <span id = "copyright">
+            <i>&copy Gareth Warren</i>
+        </span>
+    </footer>
+    <script src = "https://kit.fontawesome.com/5db8037ea4.js" crossorigin="anonymous"></script>
+    <script src = "../javascript/buttonScript.js"></script>
+</body>
+</html>

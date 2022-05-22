@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Creative Corner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap" rel="stylesheet"> 
+    <link  rel = "stylesheet" type = "text/css" href = "../css/styles.css"/>
+    <meta name = "description" content = "A collection of art services offered by Gareth Warren">
+</head>
+<body>
+    <!--This is a Landing Page, Advertisement Style, for Art Related Services. This contains a listing for various types of
+    commissioned artwork, their prices, offers the option to buy said service, contains some testimonials and a small
+    blurb about the artist. The page is responsive, and may work on smaller screens 
+    due to media queries that change thumbnails based on screen size-->
+    <header id="titlebar">
+        <!--page pic-->
+        <img srcset="../assets/pageimgsmall.png 350w, ../assets/pageimg.png 450w"
+        sizes="(max-width: 1000px) 350px, 450px"
+        src="../assets/pageimg.png" alt="mead label" id="pageimg"/>
+        <!--Title-->
+        <div id = "title">
+            <h1>Gareth's Creative Corner</h1>
+            <!--Description-->
+            <br>
+            <p>Multimedia Artist open to any challenge</p>
+            <br>
+            <p>Looking for art? Take a look at my offerings <a href = "#offerings">below!</a></p>
+        </div>
+    </header>
+    <div id = "content">
+        <div id = "testimonial">
+            <h2>About the Artist</h2>
+            <article>
+                <p>I am a part-time professional freelance artist with 10+ years experience in various types of media.</p>
+                <p>Scratchboard is my favorite medium, but I also work professionally with watercolors, acrylic paints, different shades of pencil graphite, artist markers, colored pencils, and dabble in pastels, or charcoal on personal projects.</p>
+                <p>I produce digital images using Gimp, but have experience using Corel, Blender, various Adobe, and Microsoft products, as well as CAD</p>
+                <p>I am most experienced producing art involving animals, or fantasy creations, but I have done works involving city-scapes, backgrounds, people, and professional logos as well. My works range from small 3'' x 5'' pieces, all the way to large murals, and sculptural pieces</p>
+                <p>Need something specific? Don't hesitate to ask!</p>
+            </article>
+            <br>
+            <br>
+            <h2>Testimonials</h2>
+            <!--3 different descriptions. If you ever use this for real, get permission!-->
+            <blockquote>
+                <i>
+                    Extraordinarily beautiful and elegant.<br>
+                    I have to say I love Komodo Dragons. They are Saurian jewels! ~Ed
+                </i>
+            </blockquote> <!--Ed, from Dragon photo-->
+            <br>
+            <blockquote>
+                <i>
+                    I still cant believe that this was for me O.O i drool over it and am now unhealthily obsessed with it! ;D THANK YOU!! ~Banka
+                </i>
+            </blockquote><!--Banka, badge-->
+            <br>
+            <blockquote>
+                <i>
+                    The picture came out wonderful. I love the style you used for the textures, with the contrasts filling it with so much passion.
+                    The blending of the objects into the setting looks fantastic, especially with the collar and the bird.
+                    But above all else, you did a beautiful job at portraying here. 
+                    There's such a playful liveliness being portrayed, and along with that thick coat of fur, I just want to reach around and grab her in a hug. ~Prowler
+                </i>            
+            </blockquote><!--Prowler7 Chase The Moon, pet portrait-->
+            <br>
+            <h2 id = "offerings">Prices (3 characters max, unless specified)</h2>
+            <p id="offertag">Click image to see full image</p>
+        </div>
+        
+        <!--!!Purchase Buttons don't do anything yet. Ideally they would bring up a form to submit asking for commission details!!-->
+        <div id = "pricelist">
+            <div class="flexCard">
+                <div class="priceCard">
+                    <h3>
+                        <!--type of Art-->
+                        Sketch
+                    </h3>
+                    <div>
+                        <!--image-->
+                        <a href="../assets/sketch.jpg">
+                            <img srcset="../assets/sketchthumb200.png 200w, ../assets/sketchthumb400.png 400w" 
+                            sizes="(max-width: 1000px) 200px, 400px"
+                            src="../assets/sketchthumb400.png" alt="Sketch of a Wolf Dragon" class = "images"/>
+                        </a>
+                    </div>
+                    <div>
+                        <!--price-->
+                        <p class="price">$30+</p>
+                    </div>
+                    <div>
+                        <button type="button">Purchase</button>
+                    </div>
+                </div>
+    
+                <div class="priceCard">
+                    <h3>
+                        <!--type of Art-->
+                        Inks
+                    </h3>
+                    <div>
+                        <!--image-->
+                        <a href="../assets/inks.jpg">
+                            <img srcset="../assets/inksthumb200.png 200w, ../assets/inksthumb400.png 400w" 
+                            sizes="(max-width: 1000px) 200px, 400px" 
+                            src="../assets/inksthumb400.png" alt="Ink Commission of Lunostophiles Cat Character" class = "images"/>
+                        </a>
+                    </div>
+                    <div>
+                        <!--price-->
+                        <p class="price">$40+</p>
+                    </div>
+                    <div>
+                        <button type="button">Purchase</button>
+                    </div>
+                </div>
+
+                <div class="priceCard">
+                    <h3>
+                        <!--type of Art-->
+                        Color
+                    </h3>
+                    <div>
+                        <!--image-->
+                        <a href="../assets/color.jpg">
+                            <img srcset="../assets/colorthumb200.png 200w, ../assets/colorthumb400.png 400w" 
+                            sizes="(max-width: 1000px) 200px, 400px"
+                            src="../assets/colorthumb400.png" alt="Color Commission of Brian's Otter Character" class = "images"/>
+                        </a>
+                    </div>
+                    <div>
+                        <!--price-->
+                        <p class="price">$50+</p>
+                    </div>
+                    <div>
+                        <!--extras or exclusions-->
+                        <p>  Options: Prismacolor Markers, Watercolor, Colored Pencils</p>
+                        <p>  Flat Color / Minimal Shading Only</p>
+                    </div>
+                    <div>
+                        <button type="button">Purchase</button>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="flexCard">
+                <div class="priceCard">
+                    <h3>
+                        <!--type of Art-->
+                        Graphite
+                    </h3>
+                    <div>
+                        <!--image-->
+                        <a href="../assets/graphite.jpg">
+                            <img srcset="../assets/graphitethumb200.png 200w, ../assets/graphitethumb400.png 400w" 
+                            sizes="(max-width: 1000px) 200px, 400px"
+                            src="../assets/graphitethumb400.png" alt="Graphite Commission of Pet Dog" class = "images"/>
+                        </a>
+                    </div>
+                    <div>
+                        <!--price-->
+                        <p class="price">Small (8 x 11): $50+, Large (11 x 15): $75+</p>
+                    </div>
+                    <div>
+                        <!--extras or exclusions-->
+                       <p>  Finished Product Sealed to Prevent Smudging</p>
+                    </div>
+                    <div>
+                        <button type="button">Purchase</button>
+                    </div>
+                </div>
+                
+                <div class="priceCard">
+                    <h3>
+                        <!--type of Art-->
+                        Digital
+                    </h3>
+                    <div>
+                        <!--image-->
+                        <a href="../assets/digital.jpg">
+                            <img srcset="../assets/digitalthumb200.png 200w, ../assets/digitalthumb400.png 400w" 
+                            sizes="(max-width: 1000px) 200px, 400px"
+                            src="../assets/digitalthumb400.png" alt="Digital Mortal Kombat Themed Picture" class = "images"/>
+                        </a>
+                    </div>
+                    <div>
+                        <!--price-->
+                        <p class="price">$100+</p>
+                    </div>
+                    <div>
+                        <!--extras or exclusions-->
+                        <p>  Price Negotiable, based on Complexity of Image</p>
+                    </div>
+                    <div>
+                        <button type="button">Purchase</button>
+                    </div>
+                </div>
+                
+                <div class="priceCard">
+                    <h3>
+                        <!--type of Art-->
+                        Scratchboard
+                    </h3>
+                    <div>
+                        <!--image-->
+                        <a href="../assets/scratchboard.jpg">
+                            <img srcset="../assets/scratchboardthumb200.png 200w, ../assets/scratchboardthumb400.png 400w" 
+                            sizes="(max-width: 1000px) 200px, 400px"
+                            src="../assets/scratchboardthumb400.png" alt="Scratchboard Commission of WaterDeer" class = "images"/>
+                        </a>
+                    </div>
+                    <div>
+                        <!--price-->
+                        <p class="price">$200 (11 x 15)</p>
+                    </div>
+                    <div>
+                        <!--extras or exclusions-->
+                        <p>
+                              +$15 Watercolor Splash <a href = "../assets/scratchboard_watercolor.jpg">example</a>
+                        </p>
+                        <p>
+                              Each Piece comes with the promise that it will be entirely redone, if damaged in transit
+                        </p>
+                    </div>
+                    <div>
+                        <button type="button">Purchase</button>
+                    </div>
+                </div>
+            </div>
+            
+           <div class="flexCard">
+            <div class="priceCard">
+                <h3>
+                    <!--type of Art-->
+                    Full Color Commission
+                </h3>
+                <div>
+                    <!--image-->
+                    <a href="../assets/paints.jpg">
+                        <img srcset="../assets/paintsthumb200.png 200w, ../assets/paintsthumb400.png 400w" 
+                        sizes="(max-width: 1000px) 200px, 400px"
+                        src="../assets/paintsthumb400.png" alt="Commission of ExNihilis Gryphon Character" class = "images"/>
+                    </a>
+                </div>
+                <div>
+                    <!--price-->
+                    <p class="price">$160</p>
+                </div>
+                <div>
+                    <!--extras or exclusions-->
+                    <p>Full Color Only (11 x 15)</p>
+                    <p>Watercolor / Colored Pencil</p>
+                    <p>** Detailed Background Included in Cost **</p>
+                </div>
+                <div>
+                    <button type="button">Purchase</button>
+                </div>
+            </div>
+            
+            <div class="priceCard">
+                <h3>
+                    <!--type of Art-->
+                    Badges
+                </h3>
+                <div>
+                    <!--image-->
+                    <a href="../assets/badges.jpg">
+                        <img srcset="../assets/badgesthumb200.png 200w, ../assets/badgesthumb400.png 400w" 
+                        sizes="(max-width: 1000px) 200px, 400px"
+                        src="../assets/badgesthumb400.png" alt="Badge for Tyrxx" class = "images"/>
+                    </a>
+                </div>
+                <div>
+                    <!--price-->
+                    <p class="price">$25 black paper / colored pencil</p>
+                    <p class="price">$35 watercolor</p>
+                    <p class="price">$40 scratchboard</p>
+                    <p class="price">$45 scratchboard / watercolor</p>
+                </div>
+                <div>
+                    <!--extras or exclusions-->
+                    <p>** One Character per Badge **</p>
+                </div>
+                <div>
+                    <button type="button">Purchase</button>
+                </div>
+            </div>
+                <!--Also a description of additional services (detailed background, extra character charges, shipping and handling)-->
+                <div class="priceCard" id="extra">
+                    <h3>Extra Fees</h3>
+                    <span class="price">Extra Characters: +$15/ character </span>
+                    <span class="price">Detailed Background: +$15</span>
+                    <span class="price">Shipping and Handling: +$10</span>
+                </div>
+            </div>
+        </div>          
+    </div>
+    
+    <footer id = "foot">
+        <em>--Assets, Images, Page Copyright Gareth Warren </em>
+         <!--contact link: This will be changed if I launch this somewhere-->
+         <a href="mailto: redacted">Inquiries, Sales, Questions, Comments</a>
+    </footer>
+</body>
+</html>

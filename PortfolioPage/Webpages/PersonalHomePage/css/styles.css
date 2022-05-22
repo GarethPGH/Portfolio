@@ -1,0 +1,111 @@
+body{
+    background-color:rgb(128, 185, 187);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vh;
+}
+#title{
+    font-size: 8em;
+    justify-content: left; 
+}
+.subtitle{
+    display: flex;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 5em;
+    color:rgba(255,255,0,1); 
+    justify-content: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
+#photo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+    height: 40vh;
+    object-fit: contain;
+}
+#image{
+    padding: 7vw;
+    border-style: ridge;
+    border-color: rgb(77, 21, 21);
+    background-color:bisque;
+}
+.banner{
+    display: block;
+    position: relative;
+    background-image: url("../assets/titlebar.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 15vh;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 25vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    size: 20vw;
+    background-color: #fcd07e;
+    border-style: ridge;
+    border-color: hsl(41, 57%, 33%);
+}
+.links{
+    font-size: larger;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+#email{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1vh;
+}
+.background{
+    display: flex;
+    height:fit-content;
+    width: fit-content;
+    flex-direction: column;
+    background-color:bisque;
+    margin: 3vw;
+    padding: 3vw;
+    border:1vw, line, #fcd07e;
+    border-radius: 1vw;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    margin: 5vw;
+    font-family: sans-serif;
+    font-size: 16;
+}
+#layout{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+}
+.galleryimg{
+    height: 15vh;
+    width: 15vw;
+    margin: 1vw;
+    align-items: center;
+    object-fit: contain;
+}
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    border: 1px solid #FF00;
+    list-style-type: none;
+}

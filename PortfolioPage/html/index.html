@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en/us">
+<head>
+    <!--Title-->
+    <title>Collected Works of Gareth Warren</title>
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="../css/styles.css"/>
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <!--Titlebar at top of page-->
+    <div id="titlebar">
+        <div>
+            <h1 id="title">
+                Collected Works of Gareth Warren
+            </h1>
+            <!--Navigation Buttons to various sections of page-->
+            <nav>
+                <ul>
+                    <li>
+                        <a class= "buttons" href="#web">Web Class Projects</a>
+                    </li>
+                    <li>
+                        <a class= "buttons" href="#ccac">CCAC Projects</a>
+                    </li>
+                    <li>
+                        <a class= "buttons" href="#personal">Personal Projects</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!--Intro to the Page-->
+    <header class="content">
+        <div  id = "intro">
+            <p>Welcome to the Collected Works of Gareth Warren.</p> 
+
+                <p class="introstuff">
+                    I graduated in Spring 2022 with an Associates of Science for Software Development from the Community College of Allegheny County. 
+                    In addition to my passion for writing code, I am a professional freelance artist.
+                    A more extensive "About Me" can be seen on the <a class="bodyhref" href="../Webpages/PersonalHomePage/html/about.html">Personal Web Page About Me</a>
+                </p>
+                <!--Introductory Video-->
+                <div class="introstuff" id="vidContainer">
+                    <video width="420" height="237" autoplay muted>
+                        <source src="../assets/video/snow.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <p class="introstuff">
+                    Before you is a listing of projects I made spanning 5 years. 
+                    These include projects done while attending college, and a selected few of my own personal projects from beforehand. 
+                    The projects consist of websites, and applications, utilizing various languages, including, HTML, CSS, Javascript, C++, Java and C#. 
+                    My full portfolio can be found on <a class="bodyhref" href="https://github.com/GarethPGH?tab=repositories">Github</a>.
+                </p>
+        </div>
+    </header>
+
+    <!--Description of Portfolio Projects, with links to the actual Projects-->
+    <article id="information" class="content">
+        <p>Unless otherwise stated, click on the title to see the project.</p>
+        
+        <!--Pages Created in Web Development Class-->
+        <h2>Web Development Projects</h2>
+        <p>This Section contains the major projects completed for the Web Development Class at CCAC.</p>
+        <section id = "web" class="sections">
+
+            <!--Personal Web Page-->
+            <a href="../Webpages/PersonalHomePage/html/personalpage.html">
+                <h3 class="projectTitle">Personal Webpage</h3>
+            </a>
+            <div class = "blocks">
+                <p class="blockp">
+                    Project 1 of Web Development was to create a Personal Webpage.
+                    This page features an "About Me" section, a rudimentery Gallery, and a basic Contact page. 
+                </p>
+                <img src="../assets/images/personalpage.jpg" alt="Personal Web Page personalpage.html" class="blockimg"/>
+            </div>
+
+            <!--Landing Page-->
+            <a href="../Webpages/LandingPage/html/landingpage.html">
+                <h3 class="projectTitle">Landing Page</h3>
+            </a>
+            <div class = "blocks">
+                <p class="blockp">
+                    Project 2 of Web Development was to create an advertisement style Landing Page.
+                    This page features examples, and prices of art related services that I offer as a freelance artist.
+                </p>
+                <img class="blockimg" src="../assets/images/landingpage.jpg" alt="Advertisement Style Landing Page landingpage.html"/>
+            </div>
+
+            <!--Gallery Page-->
+            <a href="../Webpages/GalleryPage/html/gallery.html">
+                <h3 class="projectTitle">Gallery Page</h3>
+            </a>
+            <div class = "blocks">
+                <p class="blockp">
+                    Project 3 of Web Development was to create a Gallery Style Page with links to other galleries.
+                    This page features three separate galleries featuring my digital, and traditional artwork, as well as some nature photography.
+                    Interactivity within the page is controlled by Javascript. Thus for the other two galleries to work Javascript must be enabled on the browser.
+                </p>
+                <img class="blockimg" src="../assets/images/gallerypage.jpg" alt="Gallery Page for images gallery.html"/>
+            </div>
+        </section>
+
+        <!--Code Only Git Projects Created at CCAC-->
+        <section id = "ccac" class="sections">
+            <h2>CCAC Code Projects</h2>
+            <p>This Section contains the major projects completed at CCAC for the Software Development Degree.</p>
+            
+            <!--Pet App Wireframe-->
+            <a href="https://github.com/GarethPGH/PetAppWireframe">
+                <h3 class="projectTitle">Pet App Wireframe</h3>
+            </a>
+            <div class = "blocks">
+                <p class="blockp">
+                    This project is a JavaFX prototype of a larger app I attempted to create in years prior, called FindMyPet, done for Object Oriented Java 2. This app allows the user to add pet records, and view pet records. 
+                    The project creates JSON records based on user input. There is some input verification. 
+                    The app contains three Screens: An intro screen allows the user to view pet records or create/edit pet records. 
+                    The other two are a form to create, or edit records, and the last is a screen to display the record; information and photos of added pets
+                    If a pet is listed as missing, a "Pet is Missing" warning pops up with their record
+                    I would prefer to show photos of the app itself, but I am having configuration issues, and the Java Virtual Machine can't find my main class to run the app.
+                </p>
+                <img class="blockimg" class="blockimg" src="../assets/images/default.jpg" alt="Placeholder Image for App" />
+            </div>
+
+            <!--Database Project-->
+            <a href="https://github.com/GarethPGH/DatabaseProject">
+                <h3 class="projectTitle">Database Project</h3>
+            </a>
+            <div class = "blocks">
+                <p class="blockp">
+                    This project is a database created for Database Design. It is a prototype database for the Pet Records App that I mentioned above.
+                    The database is a SQL Database designed to run in Microsoft SQL Server 2016. 
+                    It contains several tables, including a Location table (addresses), Persons (pet parent) Table, Pet Table. 
+                    Pet table has several descriptor tables related to what kind of pet, and what appearance they have.
+                    Shelters table, also contains tables linking to phone numbers and email addresses, to support a one shelter to many contact options. 
+                </p>
+                <img class="blockimg" src="../assets/images/dbdiagramforproj2.png" alt="Database Diagram"/>
+            </div>
+
+            <!--C++ and C Coursework-->
+            <a href="https://github.com/GarethPGH/C_And_CPlusPlusCoursework">
+                <h3 class="projectTitle">C/C++ Algorithms Coursework</h3>
+            </a>
+            <div class = "blocks">
+                <p class="blockp">
+                    Although this repository contains all of the projects done in both the Learning C (for Programmers), and Data Structures and Algorithms in C++ classes,
+                    the vast majority of the classes were focused more on the "Writing Algorithms" portion than the "Learning how to Code" portion. 
+                    Thus they contain challenging solutions to things like the Sieve of Eratosthenes, implementing a Doubly Linked List, using Recursion to solve Towers of Hanoi etc
+                </p>
+                <img class="blockimg" src="../assets/images/cplus.jpg" alt="C++ Code" />
+            </div>
+        </section>
+
+        <!--Code Only Git Projects Created on My Own-->
+        <section id = "personal" class="sections">
+            <h2>Personal Projects</h2>
+            <p>This section contains a couple personal projects that I completed prior to starting CCAC in an attempt to learn how to code and get a software development job on my own.</p>
+            
+            <!--Projects Done Learning Vue.js for FindMyPet App-->
+            <a href="https://github.com/GarethPGH/Learning-Vue">
+                <h3 class="projectTitle">Vue.js Projects</h3>
+            </a>
+            <div class = "blocks">
+                <p>
+                    This repository contains all of the projects I completed, or attempted trying to learn the Vue Javascript framework, in order to 
+                    recreate the app mentioned below called FindMyPet. 
+                    Included in here is a primitive gallery that uses Axios, and also utilized JSONplaceholder to simulate a backend for data-binding to an external data store. 
+                    There's also a project that uses Vuex to control the web application's state, as well as some half-starts.
+                    The readme summarizes everything I learned by doing this project, and what I attempted, or successfully created. 
+                    The Projects in this repo suffer from major compatibility issues due to breaking changes to the Vue ecosystem to remove security vulnerabilities.
+                    They will not currently run.
+            </div>
+
+            <!--Red Wolves Webpage-->
+            <a href="https://github.com/GarethPGH/RedWolves">
+                <h3 class="projectTitle">Red Wolves Webpage</h3>
+            </a>
+            <div class = "blocks">
+                <p class="blockp">
+                    First website I successfully completed, however, it was never deployed. This is a static website that utilizes Javascript to switch between three tabs. 
+                    The tabs explains the differences between red wolves, wolves, and coyotes, in an attempt to foster awareness for red wolf conservation.
+                    Website features my own artwork as examples of each animal. On load, the page displays a placeholder image, with portrait of a red wolf. 
+                    On click, the menu is displayed, and a dropdown controller pops content into place that is made visible on button click.
+                </p>
+                <img class="blockimg" src="../assets/images/redwolfport.jpg" alt="redwolf webpage"/>
+            </div>
+
+            <!--Find My Pet Rewrites-->
+            <h3 class="projectTitle nohref">Find My Pet Rewrites: links below</h3>
+            <div id="spacing">
+                <p>
+                    In 2018 I started work on a long-term project in order to reunite people with their pets. It has since gone through major architecture shifts. 
+                </p>
+                <div>
+                    <a class="centerme bodyhref" href="https://github.com/GarethPGH/FindMyPetXamarin/tree/master/FindMyPetUI">
+                    C# MVC Project
+                    </a>
+                    <p>
+                        I first attempted to create it as a C# Model View Controller in .NET app, before knowing really what the MVC framework was, or what it did.
+                        I now know that it is a design pattern, applicable to any programming language, and that I was attempting to use the created project in the wrong way.
+                    </p>
+                </div>
+                <br>
+                <div>
+                    <a class = "centerme bodyhref" href="https://github.com/GarethPGH/FindMyPetXamarin/tree/master/FindMyPetUI">
+                    Xamarin Project
+                    </a>
+                    <p>
+                        The original build was scrapped in order to support multiple platforms.
+                        It was rewritten as a Xamarin crossplatform app with C# and .NET. 
+                        However I had problems managing the separate projects for IOS, Android, and the Universal Windows Platform (UWP). 
+                        I scrapped it in favor of using a Progressive Web Application build with Vue.js mentioned above.
+                    </p>
+                </div>
+                <div>
+                </div>
+            </div>
+        </section>
+    </article>
+
+    <!--Extro for the Webpage with Social Links, and Copyright-->
+    <footer class="content">
+        <div>
+            <span class="fontawesome">
+                <a href="https://www.linkedin.com/in/garethw-developer-pgh">
+                    <i class="fa fa-brands fa-linkedin fa-2x"></i>
+                    <img src="../assets/images/in.jpg"/>
+                </a>
+            </span>
+            <span class="fontawesome`">
+                <a href="https://github.com/GarethPGH?tab=repositories">
+                    <i class="fa fa-brands fa-github fa-2x"></i>
+                    <img src="../assets/images/git.jpg"/>
+                </a> 
+            </span>
+        </div>
+            <span id = "copyright">
+                <i>&copy Gareth Warren</i>
+            </span>
+    </footer>
+
+    <!--Font Awesome Includes-->
+    <!--Font Awesome Kit Scipt Removed due to Security Concerns. Images Added for Repository-->
+    <link href="../Webpages/GalleryPage/assets/fontawesome/all.css" rel="stylesheet"/>
+</body>
+</html>
