@@ -27,8 +27,8 @@ jobs:
           action: "upload"
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
-          cwd: $(System.DefaultWorkingDirectory)
-          app_location: "src" # App source code path
+          cwd: '$(System.DefaultWorkingDirectory)/Portfolio'
+          app_location: 'src' # App source code path
           skip_app_build: true
           skip_api_build: true
           ###### End of Repository/Build Configurations ######
